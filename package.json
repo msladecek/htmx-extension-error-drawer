@@ -1,0 +1,22 @@
+{
+  "name": "htmx-extension-error-drawer",
+  "version": "1.0.1",
+  "homepage": "https://github.com/msladecek/htmx-extension-error-drawer",
+  "description": "Put error message into the page when a htmx request ends with an error.",
+  "main": "src/error-drawer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "htmx",
+    "extension",
+    "error handling"
+  ],
+  "author": "msladecek",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msladecek/htmx-extension-error-drawer.git"
+  }
+}

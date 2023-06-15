@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test site</title>
+    <script src="https://unpkg.com/htmx.org@1.9.2" crossorigin="anonymous"></script>
+    <script src="../src/error-drawer.js" defer></script>
+</head>
+
+<body hx-ext="error-drawer">
+    <main>
+        <h1>Test Site</h1>
+        <button hx-get="/target">Trigger Error</button>
+        <button hx-get="" hx-swap="none">Trigger Success</button>
+    </main>
+</body>
+
+</html>
