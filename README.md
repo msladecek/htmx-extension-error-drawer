@@ -19,7 +19,7 @@ Enable the extension:
 ``` html
 <body hx-ext="error-drawer" >
     ...
-</body
+</body>
 ```
 
 ## Configuration
